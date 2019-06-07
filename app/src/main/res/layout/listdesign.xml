@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:id="@+id/rel"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:padding="8dp"
+    tools:context=".MainActivity"
+    >
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="75dp"
+        android:tag="background"
+        android:src="@drawable/rectangle"
+        android:tint="@color/colorGreen"
+        android:id="@+id/background"
+        android:contentDescription="@string/todo"
+        />
+
+
+
+        <TextView
+            android:id="@+id/textviewTitle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/new_task"
+            android:layout_centerVertical="true"
+            android:textColor="@color/colorWhite"
+            android:textSize="24sp"
+            android:layout_marginBottom="15dip"
+            android:layout_marginLeft="30dip"
+            android:layout_marginStart="30dip" />
+
+    <ImageView
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:src="@drawable/bullets"
+        android:id="@+id/bullets"
+        android:tint="@color/colorWhite"
+        android:layout_centerVertical="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:contentDescription="@string/todo" />
+
+</RelativeLayout>

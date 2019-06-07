@@ -1,0 +1,19 @@
+<resources>
+    <string name="app_name">Todo App</string>
+    <string name="editTaskname">Task name</string>
+    <string name="editTaskdescription">Describe your task...</string>
+    <string name="buttonAdd">ADD</string>
+    <string name="todo">TODO</string>
+    <string name="delete">DELETE</string>
+    <string name="upgrade">UPGRADE</string>
+    <string name="id">ID</string>
+    <string name="details">Details</string>
+    <string name="pick_location">PICK LOCATION</string>
+    <string name="new_task">New Task</string>
+    <string name="priority">Priority</string>
+    <string name="high">high</string>
+    <string name="medium">medium</string>
+    <string name="low">low</string>
+    <string name="tag_pick_location_to_get_your_current_location">Tag pick location to get your current location</string>
+
+</resources>
